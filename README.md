@@ -1,125 +1,42 @@
-# UCSB-DS-PROJ-2026
-A rent prediction model on Goleta &amp; Isla Vista housing prices
+# Santa Barbara Housing Cost Predictor
 
-## UCSB DS Project – Team Workflow Guide
-🔹 What This Project Is
+A machine learning web app that predicts rental prices for apartments and houses in Isla Vista and Goleta, CA — built to help UCSB students navigate one of California's most competitive rental markets.
 
-We are building a rent prediction model using Python and Jupyter notebooks.
-We are using GitHub to collaborate.
+## Overview
 
-## Before You Start (One-Time Setup)
-1️⃣ Clone the Repository
-Open Terminal and run:
-```
-git clone https://github.com/AnikaAchary/UCSB-DS-PROJ-2026.git
-cd UCSB-DS-PROJ-2026
-```
-2️⃣ Create a Virtual Environment (IMPORTANT)
-```
-python -m venv venv
-source venv/bin/activate   # Mac
-```
-Install dependencies:
-```
-pip install -r requirements.txt
-```
+This project builds an end-to-end rent prediction pipeline using real listing data scraped from Zillow, Craigslist, and Apartments.com. The model takes property features as input and outputs an estimated monthly rent, surfaced through an interactive Streamlit app.
+
+**Current model performance:** Cross-validated R² ~0.60 (10-feature linear regression)
+
+## Features
+
+- Scraped and cleaned ~120 rental listings across Isla Vista and Goleta
+- Engineered features from listing text, including NLP-extracted amenity flags (parking, laundry, pets, etc.)
+- Geocoded listings and calculated distance to UCSB using geopy
+- Iterated from a baseline model (CV R² ~0.56) to an improved 10-feature model (CV R² ~0.60)
+- Interactive Streamlit frontend for student use
+
+## Tech Stack
+
+`Python` `scikit-learn` `pandas` `Streamlit` `geopy` `Jupyter`
 
 ## Project Structure
 ```
 UCSB-DS-PROJ-2026/
-│── notebooks/       → Jupyter notebooks (analysis)
-│── src/             → Reusable Python code
-│── data/            → Data files (DO NOT upload huge files)
-│── models/          → Saved trained models
-│── README.md        → Instructions
-│── requirements.txt → Python packages
+├── notebooks/        # EDA, feature engineering, and modeling
+├── requirements.txt  # Dependencies
+└── README.md
 ```
 
-## Team Rules (VERY IMPORTANT)
-
-#### Rule 1: NEVER work directly on ```main```
-
-Always create your own branch:
-```
-git checkout -b feature/your-name-task
-```
-Example:
-```
-git checkout -b feature/anika-eda
+## Getting Started
+```bash
+git clone https://github.com/AnikaAchary/UCSB-DS-PROJ-2026.git
+cd UCSB-DS-PROJ-2026
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
-#### Rule 2: Pull before you start working
-```
-git pull origin main
-```
-Always do this before starting work.
+## Status
 
-#### Rule 3: Commit Often (Small Changes)
-
-After making changes:
-```
-git add .
-git commit -m "Short description of what you did"
-git push
-```
-
-Example:
-```
-git commit -m "Add feature engineering functions"
-```
-
-#### Rule 4: Use Pull Requests (PRs)
-After pushing your branch:
-1. Go to GitHub
-2. Click Compare & Pull Request
-3. Add a short description
-4. Submit
-
-Someone reviews before merging into ```main```
-
-❌ DO NOT:
-
-❌ Edit someone else’s notebook without asking
-
-❌ Push directly to main
-
-❌ Upload huge raw datasets
-
-❌ Delete files randomly
-
-## Notebook Guidelines
-
-We avoid merge conflicts by splitting work:
-
-01_eda.ipynb → Data exploration
-
-02_modeling.ipynb → Model training
-
-03_results.ipynb → Final evaluation
-
-If you are assigned a notebook, you “own” it.
-
-## Code Guidelines
-
-Reusable code goes in ```src/```:
-
-Example:
-```
-data_prep.py
-features.py
-train.py
-evaluate.py
-```
-## If Something Breaks
-
-Run:
-```
-git status
-```
-
-If unsure:
-1. Don't panic
-2. Don't delete the repo
-3. Ask in groupchat with a screenshot
-
-
+🚧 In progress — actively expanding dataset and improving model performance.
