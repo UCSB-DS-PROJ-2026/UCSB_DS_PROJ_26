@@ -1,0 +1,221 @@
+address,bathrooms,bedrooms,price_from,distance_to_ucsb_miles
+"100 Baldwin Dr, Unit 107, Goleta, CA",1,0,3255,1.8
+"100 Baldwin Dr, Unit 115, Goleta, CA",1,0,3240,1.8
+"100 Baldwin Dr, Unit 205, Goleta, CA",1,1,3310,1.8
+"100 Baldwin Dr, Unit 207, Goleta, CA",1,1,3310,1.8
+"100 Baldwin Dr, Unit 203, Goleta, CA",1,1,3770,1.8
+"100 Baldwin Dr, Unit 306, Goleta, CA",1,1,3620,1.8
+"100 Baldwin Dr, Unit 218, Goleta, CA",1,1,3420,1.8
+"100 Baldwin Dr, Unit 203, Goleta, CA",2,2,4485,1.8
+"100 Baldwin Dr, Unit 303, Goleta, CA",2,2,4585,1.8
+"100 Baldwin Dr, Unit 202, Goleta, CA",2,2,4650,1.8
+"100 Baldwin Dr, Unit 301, Goleta, CA",2,2,4695,1.8
+"100 Baldwin Dr, Unit 102, Goleta, CA",2,3,5550,1.8
+"860 Camino Del Sur St. 10, Isla Vista, CA",1,1,1400,0.9
+"6739 El Colegio Road Isla Vista, CA",1,1,2995,0.7
+"6739 El Colegio Road Isla Vista, CA",1,1,3295,0.7
+"6739 El Colegio Road Isla Vista, CA",2,2,6100,0.7
+"6739 El Colegio Road Isla Vista, CA",3,4,9900,0.7
+"6739 El Colegio Road Isla Vista, CA",1,1,3395,0.7
+"6739 El Colegio Road Isla Vista, CA",1,1,3450,0.7
+"6509 Pardall Rd, Goleta, CA 93117",2,2,6100,0.3
+"6509 Pardall Rd, Goleta, CA 93117",2,2,6395,0.3
+"6563 Trigo Road #101 Goleta, CA 93117",1,0,1550,0.8
+"6563 Trigo Road #102 Goleta, CA 93117",1,0,1550,0.8
+"6563 Trigo Road #103 Goleta, CA 93117",1,0,3300,0.8
+"6563 Trigo Road #201 Goleta, CA 93117",1,0,3250,0.8
+"6563 Trigo Road #202 Goleta, CA 93117",1,0,1675,0.8
+"6563 Trigo Road #203 Goleta, CA 93117",1,0,1675,0.8
+"6563 Trigo Road #204 Goleta, CA 93117",1,0,1675,0.8
+"6563 Trigo Road #205 Goleta, CA 93117",1,0,1675,0.8
+"6563 Trigo Road #206 Goleta, CA 93117",1,0,1675,0.8
+"6563 Trigo Road #207 Goleta, CA 93117",1,0,3250,0.8
+"6563 Trigo Road #208 Goleta, CA 93117",1,0,1675,0.8
+"6588 Trigo Road #4 Goleta, CA, 93117",1,1,1850,0.9
+"6598 Trigo Road #1 Goleta, CA, 93117",1,1,1850,0.9
+"6598 Trigo Road #6 Goleta, CA, 93117",1,1,1850,0.9
+"6598 Trigo Road #7 Goleta, CA, 93117",1,1,1850,0.9
+"6598 Trigo Road #8 Goleta, CA, 93117",1,1,1850,0.9
+"6598 Trigo Road #9 Goleta, CA, 93117",1,1,1850,0.9
+"6588 Trigo Road #10 Goleta, CA, 93117",1,2,1515,0.9
+"6588 Trigo Road #2 Goleta, CA, 93117",1,2,1385,0.9
+"6588 Trigo Road #5 Goleta, CA, 93117",1,2,1485,0.9
+"6588 Trigo Road #8 Goleta, CA, 93117",2,2,1575,0.9
+"6598 Trigo Road #10 Goleta, CA, 93117",1,2,1535,0.9
+"6598 Trigo Road #3 Goleta, CA, 93117",1,2,1535,0.9
+"6598 Trigo Road #5 Goleta, CA, 93117",1,2,1400,0.9
+"6640 Abrego Rd #10 Goleta, CA, 93117",2,2,1450,0.8
+"6640 Abrego Rd #7 Goleta, CA, 93117",1,2,1375,0.8
+"6640 Abrego Rd #8 Goleta, CA, 93117",1,2,1425,0.8
+"6563 Trigo Road #301 Goleta, CA 93117",2,3,1425,0.8
+"6563 Trigo Road #302 Goleta, CA 93117",2,3,1425,0.8
+"6640 Abrego Rd #1 Goleta, CA, 93117",2,3,1425,0.8
+"6640 Abrego Rd #3 Goleta, CA, 93117",2,3,1395,0.8
+"6640 Abrego Rd #4 Goleta, CA, 93117",2,3,1600,0.8
+"6640 Abrego Rd #6 Goleta, CA, 93117",2,3,1375,0.8
+"6502 Sabado Tarde Rd #1, Goleta, CA 93117",2,3,5000,0.4
+"893 Camino Del Sur #A, Goleta, CA 93117",2,2,4297,0.9
+"6722 Sueno Rd #A, Goleta, CA 93117",2,2,4297,1
+"6716 Sueno Rd #B Goleta, CA 93117",2,2,4800,1
+"6708 Sueno Rd #A, Isla Vista, CA 93117",2,2,4800,1
+"6555 Segovia Rd, Goleta, CA 93117",3.5,7,17500,0.4
+"6793 Pasado Rd, Goleta, CA 93117",2,3,8490,1.3
+"6774 Sueno Rd, Isla Vista, CA 93117",3,5,13250,1.2
+"6591 Cordoba Rd, Isla Vista, CA 93117",2,2,6400,0.7
+"6880 Pasado Rd, Goleta, CA 93117",2,4,11000,1.4
+"6766 Del Playa Dr, Goleta, CA 93117",4,4,9400,1.3
+"939 Embarcadero del Mar #A, Goleta, CA 93117",1,0,3500,0.5
+"760 Embarcadero del Norte, Goleta, CA 93117, United States",1,1,3500,0.38
+"910 Camino Pescadero, Goleta, CA 93117, United States",1,1,2850,0.54
+"6578 Trigo Rd Unit C, Goleta, CA 93117, United States",1,0,3300,0.54
+"6578 Trigo Rd Unit F, Goleta, CA 93117, United States",1,0,3300,0.54
+"6578 Trigo Rd Unit D, Goleta, CA 93117, United States",1,1,2900,0.54
+"6578 Trigo Rd Unit E, Goleta, CA 93117, United States",1,1,2900,0.54
+"6661 Berkshire Terr, Isla Vista, CA 93117, United States",1,1,1800,0.7
+"938 Camino Corto, Isla Vista, CA 93117, United States",3,3,8100,0.99
+"6556 El Nido Ln Isla Vista, CA 93117",1,1,2800,0.48
+"820 Camino Corto Goleta, CA 93117",2,2,4100,0.99
+"6730 Sabado Tarde Rd, Isla Vista, CA 93117, United States",3,5,13100,0.88
+"6681 Berkshire Terr, Isla Vista, CA 93117, United States",1,0,1850,0.74
+"880 Camino del Sur, Goleta, CA 93117, United States",1,1,3340,0.77
+"880 Camino del Sur, Goleta, CA 93117, United States",2,2,6000,0.77
+"880 Camino del Sur, Goleta, CA 93117, United States",2,3,6000,0.77
+"6592 Sabado Tarde Rd Isla Vista, CA 93117",1,2,4400,0.59
+"6675 Sabado Tarde Rd Goleta, CA 93117",1,2,5300,0.77
+"6671 Berkshire Terrace Unit 03, Isla Vista, CA 93117",1,1,1800,0.72
+"6643 Abrego Rd, Isla Vista, CA 93117, United States",1.5,2,4600,0.66
+"6567 Sabado Tarde Rd Isla Vista, CA 93117",1,1,2250,0.55
+"6582 Sabado Tarde Rd Isla Vista, CA 93117",1,1,3100,0.58
+"6613 Del Playa Dr Goleta, CA 93117",2,3,7600,0.67
+"6631 Picasso Rd Goleta, CA 93117",1,1,2500,0.63
+"6595 Cordoba Rd Goleta, CA 93117",1,1,2700,0.55
+"6510 Picasso Rd Unit H, Isla Vista, CA 93117, United States",1,0,4800,0.31
+"6510 Picasso Rd Unit A, Isla Vista, CA 93117, United States",1,1,4800,0.31
+"6510 Picasso Rd Unit G, Isla Vista, CA 93117, United States",1,1,4800,0.31
+"6510 Picasso Rd Unit C, Isla Vista, CA 93117, United States",1,2,4800,0.31
+"6510 Picasso Rd Unit I, Isla Vista, CA 93117, United States",1,2,4800,0.31
+"6654 Del Playa Dr Isla Vista, CA 93117",1,0,2480,0.74
+"6730 Sabado Tarde Rd Goleta, CA 93117",3,5,13100,0.88
+"6621 Abrego Rd Isla Vista, CA 93117",1,1,1695,0.61
+"6512 Segovia Rd Isla Vista, CA 93117",1,2,2800,0.3
+"6621 Abrego Rd Isla Vista, CA 93117",1,1,2800,0.61
+"6621 Abrego Rd Isla Vista, CA 93117",1,2,3000,0.61
+"851 Camino Pescadero #21, Goleta, CA 93117",1,0,1985,0.58
+"7610 Hollister Ave UNIT 109, Goleta, CA 93117",1,1,3400,2.81
+"6598 Calle Koral, Goleta, CA 93117",2.5,3,5200,1.57
+"37 Colusa Ave #101, Goleta, CA 93117",1,0,3250,1.99
+"7181 Del Norte Dr, Goleta, CA 93117",1,1,4000,2.33
+"223 Ellwood Beach Dr APT 5, Goleta, CA 93117",1,1,2650,2.35
+"935 Camino Pescadero Unit B, Isla Vista, CA 93117",2,3,6500,0.59
+"6706 Del Playa Unit A, Isla Vista, CA 93117",2,3,9000,0.85
+"6647 Abrego Unit C Isla Vista, CA 93117",1,0,2690,0.68
+"6647 Abrego Unit B Isla Vista, CA 93117",2,4,6400,0.68
+"6647 Abrego Unit A Isla Vista, CA 93117",2.5,4,8900,0.68
+"759 Embarcadero del Mar, Unit B Goleta, CA 93117, United States",1,1,3450,0.51
+"759 Embarcadero del Mar Unit H , Goleta, CA 93117, United States",1,2,5500,0.51
+"4781 Avalon Ave Santa Barbara, CA 93110",1,1,2600,3.6
+"6587 Cervantes Rd Unit 13 Goleta, CA 93117",1,1,3450,0.53
+"6587 Cervantes Rd Unit 14 Goleta, CA 93117",1,1,3700,0.53
+"6587 Cervantes Rd Unit 1 Goleta, CA 93117",1,1,3450,0.53
+"6777 Del Playa Dr Unit 5, Isla Vista, CA 93117",2,3,10000,1
+"6777 Del Playa Dr Unit 1, Isla Vista, CA 93117",2,4,12000,1
+"6777 Del Playa Dr Unit 3, Isla Vista, CA 93117",2,4,12000,1
+"6777 Del Playa Dr Unit 4, Isla Vista, CA 93117",2,4,12000,1
+"6777 Del Playa Dr Unit 2, Isla Vista, CA 93117",2,5,13500,1
+"6561 Del Playa Dr Unit 2,Goleta, CA 93117",1,3,10250,0.56
+"6561 Del Playa Dr Unit 4,Goleta, CA 93117",2,3,9250,0.56
+"6561 Del Playa Dr Unit 3,Goleta, CA 93117",2,3,10250,0.56
+"6561 Del Playa Dr Unit 6, Goleta, CA 93117",2,3,10250,0.56
+"6561 Del Playa Dr Unit 7,Goleta, CA 93117",2,3,10250,0.56
+"6561 Del Playa Dr Unit 1,Goleta, CA 93117",2,2,7000,0.56
+"6561 Del Playa Dr Unit 5,Goleta, CA 93117",1,0,7000,0.56
+"6542 Sabado Tarde Rd, Goleta, CA 93117, United States",1,1,1500,0.45
+"655 Walnut Park Ln, Santa Barbara, CA 93111, United States",1,1,1250,3.56
+"3935 Foothill Rd Santa Barbara, CA 93110",1,1,3595,6.14
+"6816 Shadowbrook Dr Unit A Goleta, CA 93117",1,1,1500,1.16
+"6816 Shadowbrook Dr Unit B, Goleta, CA 93117",1,1,1500,1.16
+"5560 Campana Ct, Santa Barbara, CA 93111, United States",1,1,2000,3.07
+"529 High Grove Ave, Goleta, CA 93117, United States",1,1,1450,1.23
+"Camino Campana, Santa Barbara, CA 93111, United States",2,3,6000,3.1
+"1120 Vereda Del Ciervo, Goleta, CA 93117, United States",1,1,2400,4.82
+"1128 Harbor Hills Ln, Santa Barbara, CA 93109, United States",1,1,1950,7.92
+"781 Embarcadero del Norte Unit 356, Goleta, CA 93117, United States",1,1,2995,0.41
+"781 Embarcadero del Norte Unit 4, Goleta, CA 93117, United States",1,1,2995,0.41
+"781 Embarcadero del Norte Unit 7, Goleta, CA 93117, United States",1,1,2395,0.41
+"781 Embarcadero del Norte Unit 8, Goleta, CA 93117, United States",1,1,2895,0.41
+"781 Embarcadero del Norte Unit 910, Goleta, CA 93117, United States",1,1,2895,0.41
+"781 Embarcadero del Norte Unit 12, Goleta, CA 93117, United States",1,1,3095,0.41
+"781 Embarcadero del Norte Unit 11, Goleta, CA 93117, United States",1,1,2897,0.41
+"781 Embarcadero del Norte Unit 15, Goleta, CA 93117, United States",1,1,2795,0.41
+"781 Embarcadero del Norte Unit 16, Goleta, CA 93117, United States",1,1,2795,0.41
+"781 Embarcadero del Norte Unit 20, Goleta, CA 93117, United States",1,1,2795,0.41
+"781 Embarcadero del Norte Unit 2124, Goleta, CA 93117, United States",1,1,2795,0.41
+"Daytona Dr, Goleta, CA 93117, United States",2,4,4800,2.43
+"6223 Cumberland Dr, Goleta, CA 93117, United States",1,1,1200,2.64
+"6542 Covington Way Goleta, CA 93117",1,1,2250,2.18
+"568 Ocean Meadows Ln  Unit 101, Goleta, CA 93117, United States",5.5,5,1635,1.43
+"568 Ocean Meadows Ln  Unit 101, Goleta, CA 93117, United States",5.5,5,1670,1.43
+"568 Ocean Meadows Ln  Unit 101, Goleta, CA 93117, United States",5.5,5,1660,1.43
+"568 Ocean Meadows Ln  Unit 101, Goleta, CA 93117, United States",5.5,5,1725,1.43
+"568 Ocean Meadows Ln  Unit 101, Goleta, CA 93117, United States",5.5,5,1445,1.43
+"568 Ocean Meadows Ln  Unit 101, Goleta, CA 93117, United States",6.5,6,1660,1.43
+"568 Ocean Meadows Ln  Unit 101, Goleta, CA 93117, United States",6.5,6,1635,1.43
+"568 Ocean Meadows Ln  Unit 101, Goleta, CA 93117, United States",6.5,6,1725,1.43
+"5218 Rhoads Ave, Santa Barbara, CA 93111, United States",1,1,1200,2.64
+"San Ricardo Dr, Santa Barbara, CA 93111, United States",1,1,1500,2.72
+"6478 Caroldale Ln, Goleta, CA 93117, United States",1,1,1200,2.35
+"796 Embarcadero del Norte Goleta, CA 93117",1,2,3400,0.36
+"6815 Trigo Rd Goleta, CA 93117",1,1,3100,1.04
+"6580 Pardall Rd Isla Vista, CA 93117",1.5,2,4200,0.5
+"6581 Trigo Rd, Isla Vista, CA 93117, United States",1,1,2500,0.57
+"6598 Madrid Rd Unit AB, Goleta, CA 93117, United States",1,1,2700,0.56
+"6598 Madrid Rd Unit C , Goleta, CA 93117, United States",1,1,2700,0.56
+"6594 Madrid Rd Unit ABC , Goleta, CA 93117, United States",1,1,2700,0.55
+"6594 Segovia Rd, Isla Vista, CA 93117, United States",1,1,2550,0.55
+"6619 Del Playa Dr, Isla Vista, CA 93117, United States",2,3,7900,0.68
+"6517 El Greco Rd Unit 8, Goleta, CA 93117, United States",1,1,3500,0.35
+"6517 El Greco Rd Unit 4, Goleta, CA 93117, United States",1,2,3500,0.35
+"6656 Picasso Rd, Goleta Unit 457, CA 93117, United States",1,1,3300,0.69
+"6656 Picasso Rd, Goleta Unit 23910, CA 93117, United States",2,2,5500,0.69
+"6565 Segovia Rd, Goleta, CA 93117, United States",1,1,3000,0.48
+"6571 Sabado Tarde Rd Unit 6, Goleta, CA 93117, United States",1,1,1750,0.56
+"6571 Sabado Tarde Rd Unit 7, Goleta, CA 93117, United States",1.5,2,4200,0.56
+"6571 Sabado Tarde Rd Unit 3, Goleta, CA 93117, United States",2,3,4150,0.56
+"6510 Sabado Tarde Rd Unit H, Goleta, CA 93117, United States",1,0,2900,0.38
+"6510 Sabado Tarde Rd Unit A, Goleta, CA 93117, United States",1,1,3500,0.38
+"6510 Sabado Tarde Rd Unit G, Goleta, CA 93117, United States",1,1,3500,0.38
+"6510 Sabado Tarde Rd Unit C , Goleta, CA 93117, United States",1,2,5500,0.38
+"6510 Sabado Tarde Rd Unit I , Goleta, CA 93117, United States",1,2,5500,0.38
+"6621 Picasso Rd Unit 11, Goleta, CA 93117, United States",1,1,2600,0.61
+"6621 Picasso Rd Unit 9, Goleta, CA 93117, United States",1,2,2995,0.61
+"807 Embarcadero del Norte Unit 1578101112, Goleta, CA 93117, United States",1,1,2650,0.4
+"807 Embarcadero del Norte Unit 2414 Goleta, CA 93117, United States",1,1,2650,0.4
+"807 Embarcadero del Norte Unit 181920, Goleta, CA 93117, United States",1,1,2650,0.4
+"6691 Abrego Rd Goleta, CA  93117, United States",1,1,2600,0.76
+"6659 Abrego Rd Unit AB,  Goleta, CA  93117, United States",1,2,5200,0.7
+"760 Embercardero del Norte Unit 12, Goleta, CA 93117, United States",1,1,3500,0.38
+"760 Embercardero del Norte Unit 78, Goleta, CA 93117, United States",1,1,3500,0.38
+"760 Embercardero del Norte Unit 11, Goleta, CA 93117, United States",1,1,3500,0.38
+"6640 Pasado Rd, Goleta, CA 93117, United States",2,3,5600,1.2
+"6873 Fortuna Rd Goleta, CA 93117",1,1,1100,1.6
+"674 Sueno Road, Goleta,CA 93117",2,5,12500,1.6
+"6773 Estero Rd Goleta, CA 93117",3,5,13500,1.6
+"6555 Segovia Rd Goleta, CA 93117",3.5,7,16800,0.8
+"280 Royal Linda Dr, Goleta, CA 93117, United States",1,1,1500,3.8
+"759 Embarcadero del Mar Isla Vista, CA 93117",1,1,1150,0.7
+"6531 Sabado Tarde Rd, Isla Vista, CA 93117, United States",2,2,5400,1.1
+"6896 Willowgrove Dr Goleta, CA 93117",1,1,1600,1.5
+"6719 Sabado Tarde Rd Isla Vista, CA 93117",1,1,0,1.4
+"777 Camino Pescadero Isla Vista, CA 93117",1,1,876,0.8
+"6503 Madrid Rd Apt 1 Isla Vista, CA 93117",1,0,1852,0.9
+"6503 Madrid Rd Apt 4 Isla Vista, CA 93117",1,0,1852,0.9
+"6503 Madrid Rd Apt 9 Isla Vista, CA 93117",1,0,0,0.9
+"6503 Madrid Rd Apt 2 Isla Vista, CA 93117",1,2,968,0.9
+"6503 Madrid Rd Apt 3 Isla Vista, CA 93117",1,2,968,0.9
+"6503 Madrid Rd Apt 5 Isla Vista, CA 93117",1,2,968,0.9
+"6503 Madrid Rd Apt 6 Isla Vista, CA 93117",1,2,968,0.9
+"6503 Madrid Rd Apt 7 Isla Vista, CA 93117",1,2,968,0.9
+"6503 Madrid Rd Apt 8 Isla Vista, CA 93117",1,2,968,0.9
+"6740 Pasado Rd Goleta, CA 93117",2,2,4995,1.4
+"6612 Sueno Rd Goleta, CA 93117",1,1,0,1.1
+"732 Del Norte Dr, Goleta, CA 93117, United States",1,1,876,3.4
