@@ -241,7 +241,7 @@ with col2:
     st.markdown("""
     <div class="stat-row">
         <div class="stat-card">
-            <div class="stat-num"><span class="stat-accent">500+</span></div>
+            <div class="stat-num"><span class="stat-accent">200+</span></div>
             <div class="stat-label">Listings Analyzed</div>
         </div>
         <div class="stat-card">
@@ -297,7 +297,7 @@ st.markdown("""
     <div class="step-item">
         <div class="step-num">2</div>
         <p class="step-title">Model runs instantly</p>
-        <p class="step-desc">Our XGBoost model trained on Santa Barbara rental data returns a price estimate in milliseconds.</p>
+        <p class="step-desc">Our Ridge Regression model trained on Santa Barbara rental data returns a price estimate in milliseconds.</p>
     </div>
     <div class="step-item">
         <div class="step-num">3</div>
