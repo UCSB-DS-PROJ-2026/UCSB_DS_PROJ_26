@@ -13,15 +13,19 @@ To address this issue, we are developing a web-based platform that:
 
 ## Features
 • AI Chat Explorer
+
 • Housing price prediction model
+
 • Trends and data visualization
 
 ## Data Sources
 • UCSB Housing Listings Website
+
 • Red Fin, Zillow, and more housing websites
 
 
 ## Tech Stack
+
 • Python (pandas, scikit-learn)
 • Jupyter Notebook
 • Github
