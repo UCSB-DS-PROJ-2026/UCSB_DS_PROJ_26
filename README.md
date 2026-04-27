@@ -27,8 +27,12 @@ To address this issue, we are developing a web-based platform that:
 ## Tech Stack
 
 • Python (pandas, scikit-learn)
+
 • Jupyter Notebook
+
 • Github
+
 • Streamlit Community Cloud
+
 • Python, scikit-learn, pandas
 • OpenRouteService API
