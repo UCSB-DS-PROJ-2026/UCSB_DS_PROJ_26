@@ -24,6 +24,7 @@ To address this issue, we are developing a web-based platform that:
      •  Provides student-focused information such as the number of rooms/bathrooms, rent price,            distance from UCSB, and more to help students make informed financial decisions. 
 
 ## Methodology
+
 ### Data Collection
 
 We gathered housing data from: 
@@ -36,11 +37,11 @@ We gathered housing data from:
 
 ### Data Processing:
 
-• Data cleaning using pandas in Python
+    •  Data cleaning using pandas in Python
 
-•  Handling missing values and standardizing features
+    •  Handling missing values and standardizing features
 
-• Feature engineering (calculating distance to UCSB, price per room, etc)
+    •  Feature engineering (calculating distance to UCSB, price per room, etc)
 
 ### Machine Learning Model:
 
@@ -61,7 +62,6 @@ We gathered housing data from:
     •  Predicted future rental price 
 
 
-    
 
 ## Features
 • AI Chat Explorer for housing-related questions
