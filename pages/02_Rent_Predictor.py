@@ -153,7 +153,7 @@ else:
             <div class="banner-sub">Fill in your preferences and click Predict Rent</div>
         </div>
         <div class="banner-right" style="opacity:0.5;">
-            Calculated by Ridge Regression<br>Santa Barbara data
+            Calculated by Gradient Boosting<br>Santa Barbara data
         </div>
     </div>
     """, unsafe_allow_html=True)

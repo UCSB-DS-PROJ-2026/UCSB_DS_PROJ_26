@@ -147,7 +147,7 @@ with left_col:
     st.markdown("""
     <h2 class="section-title">How the model works</h2>
     <p class="body-text">
-        The Rent Predictor uses an <strong>Ridge regression model</strong> trained on scraped 
+        The Rent Predictor uses an <strong>Gradient Boosting model</strong> trained on scraped 
         Santa Barbara rental listings. Features include number of bedrooms and bathrooms, 
         distance from UCSB campus, housing type, and year. 
         The model was validated using cross-validation and evaluated on held-out test data.
@@ -161,7 +161,7 @@ with left_col:
     <div class="tech-row">
         <span class="tech-pill">Python</span>
         <span class="tech-pill">Streamlit</span>
-        <span class="tech-pill">Ridge Regression</span>
+        <span class="tech-pill">Gradient Boosting</span>
                 <span class="tech-pill">Altair</span>
         <span class="tech-pill">scikit-learn</span>
         <span class="tech-pill">Pandas</span>

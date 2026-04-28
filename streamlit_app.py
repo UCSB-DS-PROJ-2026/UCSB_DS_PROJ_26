@@ -297,7 +297,7 @@ st.markdown("""
     <div class="step-item">
         <div class="step-num">2</div>
         <p class="step-title">Model runs instantly</p>
-        <p class="step-desc">Our Ridge Regression model trained on Santa Barbara rental data returns a price estimate in milliseconds.</p>
+        <p class="step-desc">Our Gradient Boosting model trained on Santa Barbara rental data returns a price estimate in milliseconds.</p>
     </div>
     <div class="step-item">
         <div class="step-num">3</div>
