@@ -47,7 +47,7 @@ We gathered housing data from:
 
 • Model Types: 
 
-       Decision Trees (Gradient boosting) 
+    •  Decision Trees (Gradient boosting) 
 
 •  Input Features: 
 
@@ -66,6 +66,7 @@ We gathered housing data from:
 
 
 ## Features
+
 • AI Chat Explorer for housing-related questions
 
 • Housing price prediction model
