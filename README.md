@@ -65,7 +65,7 @@ We gathered housing data from:
 
 
 
-### Features
+## Features
 
     •  AI Chat Explorer for housing-related questions
 
@@ -76,7 +76,7 @@ We gathered housing data from:
     •  Student-focused rental insights (distance, size, affordability)
     
 
-### Data Sources
+## Data Sources
 
    •   UCSB Housing Listings Website
 
@@ -87,7 +87,7 @@ We gathered housing data from:
    •   Additional public rental datasets 
 
 
-### Tech Stack
+## Tech Stack
 
    •    Python (pandas, scikit-learn)
 
