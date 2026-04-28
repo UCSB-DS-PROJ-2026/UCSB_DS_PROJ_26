@@ -204,7 +204,7 @@ st.markdown("""
     <div class="source-icon">🏘️</div>
     <div>
         <p class="source-title">Santa Barbara County Rental Listings</p>
-        <p class="source-desc">Scraped listings data covering Isla Vista and surrounding neighborhoods, 2016–2025.</p>
+        <p class="source-desc">Scraped listings data covering Isla Vista and surrounding neighborhoods, 2025-2026.</p>
     </div>
 </div>
 <div class="source-card">
