@@ -45,7 +45,9 @@ We gathered housing data from:
 
 ### Machine Learning Model:
 
-• Model Types: Decision Trees (Gradient boosting) 
+• Model Types: 
+
+       Decision Trees (Gradient boosting) 
 
 •  Input Features: 
 
