@@ -67,33 +67,35 @@ We gathered housing data from:
 
 ## Features
 
-• AI Chat Explorer for housing-related questions
+    •  AI Chat Explorer for housing-related questions
 
-• Housing price prediction model
+    •  Housing price prediction model
 
-• Trends and data visualizations
+    •  Trends and data visualizations
 
-• Student-focused rental insights (distance, size, affordability)
+    •  Student-focused rental insights (distance, size, affordability)
 
 ## Data Sources
-• UCSB Housing Listings Website
 
-• Red Fin
+   •   UCSB Housing Listings Website
 
-• Zillow
+   •   Red Fin
 
-• Additional public rental datasets 
+   •   Zillow
+
+   •   Additional public rental datasets 
 
 
 ## Tech Stack
 
-• Python (pandas, scikit-learn)
+   •    Python (pandas, scikit-learn)
 
-• Jupyter Notebook
+   •    Jupyter Notebook
 
-• Github
+   •    Github
 
-• Streamlit Community Cloud
+   •    Streamlit Community Cloud
 
-• Python, scikit-learn, pandas
-• OpenRouteService API
+   •    Python, scikit-learn, pandas
+   
+   •    OpenRouteService API
