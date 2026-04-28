@@ -55,6 +55,7 @@ We gathered housing data from:
     •  Rent prices 
 
 •  Output:
+
     •  Predicted future rental price 
 
 
