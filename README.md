@@ -77,6 +77,7 @@ We gathered housing data from:
     
 
 ## Data Sources
+
    •   UCSB Housing Listings Website
 
    •   Red Fin
