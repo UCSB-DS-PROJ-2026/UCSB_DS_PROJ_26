@@ -1,4 +1,4 @@
-# SB Housing Intelligence
+# SB Housing Intelligence 🏠
 ## Overview
 SB Housing Intelligence is a data-driven web platform designed to help UCSB students navigate the expensive and competitive housing market in Santa Barbara. Off-campus housing in areas like Isla Vista and Goleta is often limited, expensive, and difficult to predict, leaving students with little time or information to make informed financial decisions.
 
