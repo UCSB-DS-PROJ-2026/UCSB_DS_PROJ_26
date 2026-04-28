@@ -4,6 +4,7 @@ import altair as alt
 import numpy as np
 import pickle
 import os
+import joblib
 
 st.set_page_config(
     page_title="Rent Predictor · SB Housing",
@@ -131,34 +132,33 @@ html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; }
 # ── Model loading ─────────────────────────────────────────────────────────────
 @st.cache_resource
 def load_model():
-    """
-    Load the Gradient Boosting model from disk.
-    Tries several paths so it works both locally and on Streamlit Cloud.
-    """
     model_paths = [
-        "models/rental_model.pkl",
-        os.path.join(os.path.dirname(__file__), "../models/rental_model.pkl"),
-        os.path.join(os.path.dirname(__file__), "models/rental_model.pkl"),
+        "models/model.pkl",
+        "model.pkl",
+        os.path.join(os.path.dirname(__file__), "../models/model.pkl"),
+        os.path.join(os.path.dirname(__file__), "../model.pkl"),
     ]
     for path in model_paths:
         if os.path.exists(path):
-            with open(path, "rb") as f:
-                return pickle.load(f)
+            return joblib.load(path)
     return None
 
 
-def predict_rent(model, bedrooms, bathrooms, distance_to_ucsb_miles):
-    """
-    Mirror of the predict_rent() helper from the modeling notebook.
-    Feature order must match training: bathrooms, bedrooms, distance_to_ucsb_miles
-    """
+year_adjustments = {
+    "2026-27": 0,
+    "2027-28": 150,
+    "2028-29": 300,
+    "2029-30": 450,
+}
+
+def predict_rent(model, bedrooms, bathrooms, distance_to_ucsb_miles, school_year):
     features = pd.DataFrame([{
         "bathrooms": float(bathrooms),
         "bedrooms": int(bedrooms),
         "distance_to_ucsb_miles": float(distance_to_ucsb_miles),
     }])
-
     estimate = round(model.predict(features)[0])
+    estimate += year_adjustments.get(school_year, 0)
 
     if bedrooms >= 3:
         margin = 2500
@@ -252,11 +252,11 @@ with left_col:
             model = load_model()
             if model is None:
                 st.error(
-                    "⚠️ Model file not found. Make sure `models/rental_model.pkl` "
+                    "⚠️ Model file not found. Make sure `models/model.pkl` "
                     "exists in your repo root. Run the modeling notebook to generate it."
                 )
             else:
-                result = predict_rent(model, bedrooms, bathrooms, distance)
+                result = predict_rent(model, bedrooms, bathrooms, distance, school_year)
                 st.session_state.prediction = result
                 st.session_state.pred_inputs = {
                     "bedrooms": bedrooms,
