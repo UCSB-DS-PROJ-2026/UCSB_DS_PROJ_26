@@ -45,6 +45,7 @@ We gathered housing data from:
 • Model Types: Decision Trees (Gradient boosting) 
 
 •  Input Features: 
+
     •  Location 
     
     •  Number of bedrooms and bathrooms
