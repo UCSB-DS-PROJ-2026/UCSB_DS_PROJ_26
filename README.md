@@ -17,24 +17,25 @@ Students in Santa Barbara face significant challenges in finding affordable and 
 ## Solution
 To address this issue, we are developing a web-based platform that:
 
-• Predicts Future housing prices in Santa Barbara 
+     •  Predicts Future housing prices in Santa Barbara 
 
-• Displays current rental listings and housing trends
+     •  Displays current rental listings and housing trends
 
-• Provides student-focused information such as the number of rooms/bathrooms, rent price, distance from UCSB, and more to help students make informed financial decisions
+     •  Provides student-focused information such as the number of rooms/bathrooms, rent price,            distance from UCSB, and more to help students make informed financial decisions. 
 
 ## Methodology
 ### Data Collection
 
 We gathered housing data from: 
 
-• Zillow
+    •  Zillow
 
-• Redfin
+    •  Redfin
 
-• UCSB housing listings website and public rental data sources
+    •  UCSB housing listings website and public rental data sources
 
 ### Data Processing:
+
 • Data cleaning using pandas in Python
 
 •  Handling missing values and standardizing features
