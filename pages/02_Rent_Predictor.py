@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+import numpy as np
+import pickle
 import os
 
 st.set_page_config(
@@ -64,10 +66,16 @@ html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; }
     color: white;
     line-height: 1;
 }
+.banner-range {
+    color: #a8d8f0;
+    font-size: 15px;
+    margin-top: 8px;
+    font-weight: 400;
+}
 .banner-sub {
     color: #7ec8f5;
     font-size: 14px;
-    margin-top: 6px;
+    margin-top: 4px;
 }
 .banner-right {
     text-align: right;
@@ -75,15 +83,21 @@ html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; }
     font-size: 13px;
     line-height: 1.8;
 }
+.banner-note {
+    color: #f0c040;
+    font-size: 12px;
+    margin-top: 10px;
+    font-style: italic;
+    max-width: 280px;
+}
 
 .panel-card {
     background: white;
     border: 1px solid #dbedf9;
     border-radius: 16px;
-    padding: 0 24px;          
-    height: 55px;             
-
-    display: flex;            
+    padding: 0 24px;
+    height: 55px;
+    display: flex;
     align-items: center;
     margin-bottom: 14px;
 }
@@ -95,7 +109,6 @@ html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; }
     margin: 0;
 }
 
-/* Override Streamlit form submit button */
 [data-testid="stFormSubmitButton"] > button {
     background: #2a7fd4 !important;
     color: white !important;
@@ -113,6 +126,54 @@ html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; }
 }
 </style>
 """, unsafe_allow_html=True)
+
+
+# ── Model loading ─────────────────────────────────────────────────────────────
+@st.cache_resource
+def load_model():
+    """
+    Load the Gradient Boosting model from disk.
+    Tries several paths so it works both locally and on Streamlit Cloud.
+    """
+    model_paths = [
+        "models/rental_model.pkl",
+        os.path.join(os.path.dirname(__file__), "../models/rental_model.pkl"),
+        os.path.join(os.path.dirname(__file__), "models/rental_model.pkl"),
+    ]
+    for path in model_paths:
+        if os.path.exists(path):
+            with open(path, "rb") as f:
+                return pickle.load(f)
+    return None
+
+
+def predict_rent(model, bedrooms, bathrooms, distance_to_ucsb_miles):
+    """
+    Mirror of the predict_rent() helper from the modeling notebook.
+    Feature order must match training: bathrooms, bedrooms, distance_to_ucsb_miles
+    """
+    features = pd.DataFrame([{
+        "bathrooms": float(bathrooms),
+        "bedrooms": int(bedrooms),
+        "distance_to_ucsb_miles": float(distance_to_ucsb_miles),
+    }])
+
+    estimate = round(model.predict(features)[0])
+
+    if bedrooms >= 3:
+        margin = 2500
+        note = "High uncertainty — 3+ bedroom listings vary widely in this dataset."
+    else:
+        margin = 850
+        note = "Typical prediction error ≈ ±$850."
+
+    return {
+        "estimate": estimate,
+        "low": max(0, estimate - margin),
+        "high": estimate + margin,
+        "note": note,
+    }
+
 
 # ── Header ────────────────────────────────────────────────────────────────────
 st.markdown("""
@@ -134,13 +195,15 @@ if st.session_state.prediction:
     <div class="prediction-banner">
         <div>
             <div class="banner-label">Estimated Monthly Rent</div>
-            <div class="banner-amount">${p:,.0f}</div>
-            <div class="banner-sub">per month · {inp.get('school_year','')}</div>
+            <div class="banner-amount">${p['estimate']:,.0f}</div>
+            <div class="banner-range">Range: ${p['low']:,.0f} – ${p['high']:,.0f}</div>
+            <div class="banner-sub">per month · {inp.get('school_year', '')}</div>
+            <div class="banner-note">{p['note']}</div>
         </div>
         <div class="banner-right">
-            {inp.get('bedrooms','–')} bed · {inp.get('bathrooms','–')} bath<br>
-            {inp.get('distance','–')} mi from campus<br>
-            <span style="color:#60b4ff;font-weight:600;">ML Estimate</span>
+            {inp.get('bedrooms', '–')} bed · {inp.get('bathrooms', '–')} bath<br>
+            {inp.get('distance', '–')} mi from campus<br>
+            <span style="color:#60b4ff;font-weight:600;">Gradient Boosting</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -153,7 +216,8 @@ else:
             <div class="banner-sub">Fill in your preferences and click Predict Rent</div>
         </div>
         <div class="banner-right" style="opacity:0.5;">
-            Calculated by Ridge Regression<br>Santa Barbara data
+            Powered by Gradient Boosting<br>
+            Trained on Santa Barbara data
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -180,6 +244,28 @@ with left_col:
         )
         predict_clicked = st.form_submit_button("Predict Rent", use_container_width=True)
 
+    # ── Prediction logic ──────────────────────────────────────────────────────
+    if predict_clicked:
+        if bedrooms == "select" or bathrooms == "select" or school_year == "select":
+            st.warning("Please fill in all fields before predicting.")
+        else:
+            model = load_model()
+            if model is None:
+                st.error(
+                    "⚠️ Model file not found. Make sure `models/rental_model.pkl` "
+                    "exists in your repo root. Run the modeling notebook to generate it."
+                )
+            else:
+                result = predict_rent(model, bedrooms, bathrooms, distance)
+                st.session_state.prediction = result
+                st.session_state.pred_inputs = {
+                    "bedrooms": bedrooms,
+                    "bathrooms": bathrooms,
+                    "distance": f"{distance:.1f}",
+                    "school_year": school_year,
+                }
+                st.rerun()
+
     st.markdown('</div>', unsafe_allow_html=True)
 
 
@@ -190,7 +276,6 @@ with right_col:
         <p class="panel-title">Rent Trends by Bedroom Count</p>
     """, unsafe_allow_html=True)
 
-    # Load data — handle both local and cloud paths
     data_paths = [
         "data/median_rent_south_coast_2016_2025.csv",
         "pages/data/median_rent_south_coast_2016_2025.csv",
