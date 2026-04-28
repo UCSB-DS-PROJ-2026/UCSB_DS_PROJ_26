@@ -5,7 +5,8 @@ SB Housing Intelligence is a data-driven web platform designed to help UCSB stud
 This project aims to improve transparency in the rental market by combining real housing data with predictive modeling and interactive tools.
 
 ## Problem Statement:
-Students in Santa Barbara face significant challenges in finding affordable and reliable housing due to:
+
+Students in Santa Barbara face significant challenges in finding affordable and reliable   housing due to:
 
 • Limited rental availability near UCSB
 
