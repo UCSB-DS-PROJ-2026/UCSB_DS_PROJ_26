@@ -22,7 +22,7 @@ To address this issue, we are developing a web-based platform that:
      •  Displays current rental listings and housing trends
 
      •  Provides student-focused information such as the number of rooms/bathrooms, rent price,
-        distance from UCSB, and more to help students make informed financial decisions. 
+        distance from UCSB, and more to help students make informed financial decisions
 
 ## Methodology
 
@@ -42,7 +42,7 @@ We gathered housing data from:
 
     •  Handling missing values and standardizing features
 
-    •  Feature engineering (calculating distance to UCSB, price per room, etc)
+    •  Feature engineering (calculating distance to UCSB, price per room, etc.)
 
 ### Machine Learning Model:
 
