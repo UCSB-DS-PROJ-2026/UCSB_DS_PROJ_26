@@ -8,11 +8,11 @@ This project aims to improve transparency in the rental market by combining real
 
 Students in Santa Barbara face significant challenges in finding affordable and reliable   housing due to:
 
-• Limited rental availability near UCSB
+     • Limited rental availability near UCSB
 
-• High increase in demand each academic year
+     • High increase in demand each academic year
 
-• Lack of transparency and centralized pricing information
+     • Lack of transparency and centralized pricing information
 
 ## Solution
 To address this issue, we are developing a web-based platform that:
